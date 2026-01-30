@@ -1,0 +1,11 @@
+Background Principal: #112044 (Seu azul profundo)
+
+Superfície (Cards): #1A2C5B (Um pouco mais claro que o fundo para criar elevação/profundidade) OU #FFFFFF (Se quiser um visual de alto contraste, estilo "Enterprise").
+
+Minha recomendação: Use Cards Escuros (#1A2C5B) para um visual moderno de dev, ou Cards Brancos para um visual mais "Fintech".
+
+Texto Principal: #F0F4F8 (Quase branco)
+
+Texto Secundário: #94A3B8 (Cinza azulado para descrições)
+
+Accent (Botões/Links): #38BDF8 (Azul Ciano - moderno) ou #FACC15 (Amarelo Ouro - clássico contraste com azul).
