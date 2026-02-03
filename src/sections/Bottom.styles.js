@@ -11,7 +11,6 @@ export const Footer = styled.footer`
 
     .footer-links > a {
         font-size: 24px;
-        color: white;
-        gap: 20px
+        color: white;       
     }
 `

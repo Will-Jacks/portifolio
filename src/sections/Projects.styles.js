@@ -3,7 +3,7 @@ import styled from "styled-components"
 export const ProjectSection = styled.section`
     background-color: #FFF;
     color: var(--bg-primary);
-    padding: 20px;
+    padding: 40px 20px;
 `
 
 export const SectionHeader = styled.section`
