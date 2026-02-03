@@ -1,5 +1,8 @@
 import styled from "styled-components";
 import { CardContainer, CardContent } from "./ProjectCard.styles";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faLink } from "@fortawesome/free-solid-svg-icons";
+import { faGithub } from "@fortawesome/free-brands-svg-icons";
 
 const ProjectCard = ({ image, title, badges, description, deployLink, repoLink, }) => {
     return (
@@ -13,12 +16,14 @@ const ProjectCard = ({ image, title, badges, description, deployLink, repoLink, 
                     <p className="card-description">{description}</p>
                 </CardContent>
 
-                {deployLink && (
-                    <a href={deployLink} target="_blank" className="card-deploy-link">DeployLink</a>
-                )}
-                {repoLink && (
-                    <a href={repoLink} target="_blank">RepoLink</a>
-                )}
+                <div className="project-links">
+                    {deployLink && (
+                        <a href={deployLink} target="_blank" className="card-deploy-link"><FontAwesomeIcon icon={faLink} color="#0A001B" fontSize={20} /></a>
+                    )}
+                    {repoLink && (
+                        <a href={repoLink} target="_blank"><FontAwesomeIcon icon={faGithub} color="#0A001B" fontSize={20} /></a>
+                    )}
+                </div>
             </CardContainer>
         </div>
     )

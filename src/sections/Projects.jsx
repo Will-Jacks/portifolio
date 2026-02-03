@@ -10,22 +10,22 @@ const Projects = () => {
             title: "Finance App",
             description: "Aplicação para gestão financeira pessoal utilizando MQTT e Java.",
             image: "/finance-app-preview.png",
-            deployLink: "https://finance-app.example.com",
-            repoLink: "https://github.com/yourusername/finance-app"
+            deployLink: "https://finance-wiliv.netlify.app/",
+            repoLink: "https://github.com/Will-Jacks/frontend-finance-app.git"
         },
         {
             title: "POO Tower Defense",
             description: "Jogo de Tower Defense desenvolvido em P5Js como aplicação dos conceitos de POO.",
             image: "/poo-tower-defense-preview.png",
-            deployLink: "https://poo-tower-defense.example.com",
-            repoLink: "https://github.com/yourusername/poo-tower-defense"
+            deployLink: "https://poo-defense.netlify.app/",
+            repoLink: "https://github.com/Will-Jacks/arrow-tower-poo-p5js"
         },
         {
-            title: "POO Tower Defense",
+            title: "Home Life",
             description: "Jogo de Tower Defense desenvolvido em P5Js como aplicação dos conceitos de POO.",
-            image: "/poo-tower-defense-preview.png",
-            deployLink: "https://poo-tower-defense.example.com",
-            repoLink: "https://github.com/yourusername/poo-tower-defense"
+            image: "/home-life-preview.png",
+            deployLink: "https://home-life-app.netlify.app/tabs/index.html",
+            repoLink: "https://github.com/Will-Jacks/home_life"
         }
     ]
 

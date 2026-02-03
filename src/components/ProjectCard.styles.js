@@ -4,38 +4,38 @@ export const CardContainer = styled.div`
     width: 100%;
     height: 100%;
     max-width: 320px;
-    border-radius: 8px;
-    padding: 1rem;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 20px; 
+    padding: 1.5rem;
+    border: 1px solid #f1f5f9; 
+
+    background-color: #ffffff;
+    box-shadow: 0 10px 40px -10px rgba(79, 70, 229, 0.15);
 
     display: flex;
     flex-direction: column;
-    align-items: center;
-    gap: 0.75rem;
-    
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-    
+    gap: 1rem;
+
+    transition: all 0.3s ease-in-out;
+
     &:hover {
-        transform: translateY(-2px);
-        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+    transform: translateY(-5px);
+    box-shadow: 0 20px 50px -12px rgba(79, 70, 229, 0.25);
+    border-color: rgba(79, 70, 229, 0.1);
     }
 
-    /* Responsividade para tablets e acima */
     @media (max-width: 1024px) {
-        max-width: 280px;
+    max-width: 300px;
     }
 
-    /* Responsividade para dispositivos móveis */
     @media (max-width: 768px) {
-        max-width: 100%;
-        min-height: 420px;
+    max-width: 100%;
+    height: auto; 
     }
 
     @media (max-width: 480px) {
-        max-width: 100%;
-        padding: 0.875rem;
+    padding: 1.25rem;
     }
-`
+`;
 
 export const CardContent = styled.div`
     padding: 0.875rem 0;
@@ -49,7 +49,9 @@ export const CardContent = styled.div`
     h3 {
         margin: 0;
         font-size: clamp(1rem, 2.5vw, 1.25rem);
-        line-height: 1.3;
+        line-height: 2;
+        color: var(--bg-primary);
+        font-weight: 500;
     }
 
     p {
@@ -57,5 +59,7 @@ export const CardContent = styled.div`
         font-size: clamp(0.875rem, 2vw, 1rem);
         line-height: 1.5;
         flex: 1;
+        color: var(--bg-primary);
+        font-weight: 400;
     }
 `
