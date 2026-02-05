@@ -1,7 +1,5 @@
-import styled from "styled-components";
 import ProjectCard from "../components/ProjectCard";
-
-import { ProjectContainer, ProjectSection, SectionHeader } from "./Projects.styles";
+import "./Projects.css";
 
 const Projects = () => {
 
@@ -30,14 +28,13 @@ const Projects = () => {
     ]
 
     return (
-        <ProjectSection id="projects" className="projects-section">
-
-            <SectionHeader>
+        <section id="projects" className="projects-section">
+            <section className="section-header">
                 <h2 className="section-title">Meus projetos</h2>
                 <p className="section-subtitle">Projetos de estudos desenvolvidos</p>
-            </SectionHeader>
+            </section>
 
-            <ProjectContainer className="projects-container">
+            <section className="projects-container">
                 {projects.map(project => {
                     return (
                         <ProjectCard
@@ -51,8 +48,8 @@ const Projects = () => {
                     )
                 })
                 }
-            </ProjectContainer>
-        </ProjectSection>
+            </section>
+        </section>
     );
 }
 
