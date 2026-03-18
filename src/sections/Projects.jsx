@@ -8,7 +8,7 @@ const Projects = () => {
             title: "Finance App",
             description: "Aplicação para gestão financeira pessoal utilizando MQTT e Java.",
             image: "/finance-app-preview.png",
-            deployLink: "https://finance-wiliv.netlify.app/",
+            deployLink: "https://financehelper-app.netlify.app/",
             repoLink: "https://github.com/Will-Jacks/frontend-finance-app.git"
         },
         {
@@ -20,7 +20,7 @@ const Projects = () => {
         },
         {
             title: "Home Life",
-            description: "Jogo de Tower Defense desenvolvido em P5Js como aplicação dos conceitos de POO.",
+            description: "Landing page de um projeto de enfermagem criada pra auxiliar nas informações de contato.",
             image: "/home-life-preview.png",
             deployLink: "https://home-life-app.netlify.app/tabs/index.html",
             repoLink: "https://github.com/Will-Jacks/home_life"
